@@ -1,0 +1,13 @@
+{
+  "author": "Valerio Minetti",
+  "dependencies": [ {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}],
+  "license": "Apache 2.0",
+  "name": "siliconfrog-rsa_keys",
+  "operatingsystem_support": [],
+  "project_page": "",
+  "requirements": [],
+  "source": "https://github.com/valeriominetti/siliconfrog-rsakeys.git",
+  "summary": "add an array of rsa keys to user authorized keys",
+  "tags": [],
+  "version": "0.1.1"
+}
