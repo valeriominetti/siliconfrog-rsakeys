@@ -1,13 +1,16 @@
 {
   "author": "Valerio Minetti",
-  "dependencies": [ {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}],
-  "license": "Apache 2.0",
+  "dependencies": [ {"name":"puppetlabs/stdlib","version_requirement":">= 3.0.0"}],
+  "license": "Apache-2.0",
   "name": "siliconfrog-rsa_keys",
-  "operatingsystem_support": [],
-  "project_page": "",
+  "operatingsystem_support": [
+  	{"operatingsystem":"CentOs", "operatingsystemrelease":[ "6.0", "7.0" ]}, 
+  	{"operatingsystem":"Ubuntu", "operatingsystemrelease":[ "12.04", "14.04" ]}
+  ],
+  "project_page": "https://forge.puppetlabs.com/siliconfrog/rsa_keys",
   "requirements": [],
   "source": "https://github.com/valeriominetti/siliconfrog-rsakeys.git",
   "summary": "add an array of rsa keys to user authorized keys",
-  "tags": [],
-  "version": "0.1.1"
+  "tags": ["ssh","rsa","keys"],
+  "version": "0.1.4"
 }
