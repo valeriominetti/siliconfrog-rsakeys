@@ -11,7 +11,7 @@ install
 Simple usage:
 ----------------
 declare class in your manifests
->class {'rsa_keys': 
+> class {'rsa_keys': 
 >				user         => 'root',
 >				rsa_key_hash => hiera_hash('root_pub_key'),
 >				purge        => true,
@@ -19,7 +19,7 @@ declare class in your manifests
 
 and put your keys data in an associative array or in a hiera structure like this:
 
->root_pub_key:
+> root_pub_key:
 >  keylabel1:
 >   - key: <put your rsa pub key here>
 >  keylabel2:
