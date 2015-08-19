@@ -53,7 +53,7 @@ if $user=='root' {
 $defaults = {
   ensure => 'present',
   user   => 'root',
-  type   => 'ssh-rsa',
+  'type'   => 'ssh-rsa',
 }
 #create_resources(ssh_authorized_key, hiera_hash('root_pub_key'), $defaults)
 create_resources(ssh_authorized_key, $rsa_key_hash, $defaults)
